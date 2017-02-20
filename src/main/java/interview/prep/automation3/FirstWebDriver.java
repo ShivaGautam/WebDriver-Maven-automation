@@ -14,9 +14,8 @@ public class FirstWebDriver {
 		System.setProperty("webdriver.chrome.driver",
 				"//Users//rgauta01//Documents//shiva_study//workspace//corejava//WebDriver-Practice//resources//chromedriver");
 
-		WebDriver driver = new ChromeDriver(); // WebDriver is interface and
-												// ChromeDriver is an
-												// implementation class
+		WebDriver driver = new ChromeDriver(); // WebDriver is interface and ChromeDriver is an implementation class
+		
 		// Open the browser with the given URL
 		driver.get("https://www.walmart.com/");
 		System.out.println("Home Result page : " + driver.getTitle());
